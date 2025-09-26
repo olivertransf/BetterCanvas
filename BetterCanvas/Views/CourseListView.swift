@@ -351,7 +351,7 @@ struct CourseDetailView: View {
       }
     }
     .padding()
-    .background(Color(.systemBackground))
+    .background(Color.systemBackground)
   }
   
   private var tabSelector: some View {
@@ -374,11 +374,11 @@ struct CourseDetailView: View {
         .buttonStyle(PlainButtonStyle())
       }
     }
-    .background(Color(.systemGray6))
+    .background(Color.systemGray6)
     .overlay(
       Rectangle()
         .frame(height: 1)
-        .foregroundColor(Color(.separator)),
+        .foregroundColor(Color.separator),
       alignment: .bottom
     )
   }
@@ -462,7 +462,7 @@ struct OverviewTab: View {
           }
         }
         .padding()
-        .background(Color(.systemGray6))
+        .background(Color.systemGray6)
         .cornerRadius(12)
         
         // Grade Summary
@@ -496,7 +496,7 @@ struct OverviewTab: View {
             }
           }
           .padding()
-          .background(Color(.systemGray6))
+          .background(Color.systemGray6)
           .cornerRadius(12)
         }
         
@@ -537,7 +537,7 @@ struct OverviewTab: View {
           }
         }
         .padding()
-        .background(Color(.systemGray6))
+        .background(Color.systemGray6)
         .cornerRadius(12)
       }
       .padding()
@@ -655,7 +655,7 @@ struct QuickStatCard: View {
     }
     .frame(maxWidth: .infinity)
     .padding()
-    .background(Color(.systemBackground))
+    .background(Color.systemBackground)
     .cornerRadius(8)
   }
 }
@@ -691,7 +691,7 @@ struct GradeRowView: View {
       }
     }
     .padding()
-    .background(Color(.systemGray6))
+    .background(Color.systemGray6)
     .cornerRadius(12)
   }
   
@@ -772,7 +772,7 @@ struct DiscussionRowView: View {
       }
     }
     .padding()
-    .background(Color(.systemGray6))
+    .background(Color.systemGray6)
     .cornerRadius(12)
   }
 }

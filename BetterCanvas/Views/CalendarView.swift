@@ -62,7 +62,7 @@ struct CalendarView: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 8)
-        .background(Color(.systemBackground))
+        .background(Color.systemBackground)
     }
     
     // MARK: - Calendar Grid
@@ -80,7 +80,7 @@ struct CalendarView: View {
                 }
             }
             .padding(.vertical, 8)
-            .background(Color(.systemGray6))
+            .background(Color.systemGray6)
             
             // Calendar days
             LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 7), spacing: 1) {
@@ -96,9 +96,9 @@ struct CalendarView: View {
                     }
                 }
             }
-            .background(Color(.systemGray6))
+            .background(Color.systemGray6)
         }
-        .background(Color(.systemBackground))
+        .background(Color.systemBackground)
     }
     
     // MARK: - Selected Date Assignments
@@ -177,7 +177,7 @@ struct CalendarView: View {
                 }
             }
         }
-        .background(Color(.systemBackground))
+        .background(Color.systemBackground)
     }
     
     // MARK: - Computed Properties
@@ -313,7 +313,7 @@ struct AssignmentDetailView: View {
                         }
                     }
                     .padding()
-                    .background(Color(.systemGray6))
+                    .background(Color.systemGray6)
                     .cornerRadius(12)
                     
                     // Description
@@ -326,7 +326,7 @@ struct AssignmentDetailView: View {
                                 .font(.body)
                         }
                         .padding()
-                        .background(Color(.systemGray6))
+                        .background(Color.systemGray6)
                         .cornerRadius(12)
                     }
                     
@@ -348,7 +348,7 @@ struct AssignmentDetailView: View {
                             }
                         }
                         .padding()
-                        .background(Color(.systemGray6))
+                        .background(Color.systemGray6)
                         .cornerRadius(12)
                     }
                 }
@@ -427,7 +427,7 @@ struct CalendarAssignmentRowView: View {
                 .foregroundColor(.secondary)
         }
         .padding()
-        .background(Color(.systemGray6))
+        .background(Color.systemGray6)
         .cornerRadius(12)
     }
     

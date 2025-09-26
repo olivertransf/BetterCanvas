@@ -103,7 +103,7 @@ struct AssignmentListView: View {
             }
         }
         .padding(.vertical, 8)
-        .background(Color(.systemBackground))
+        .background(Color.systemBackground)
     }
     
     // MARK: - Assignment List
@@ -348,7 +348,7 @@ struct FilterPill: View {
                 .fontWeight(.medium)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 6)
-                .background(isSelected ? Color.accentColor : Color(.systemGray6))
+                .background(isSelected ? Color.accentColor : Color.systemGray6)
                 .foregroundColor(isSelected ? .white : .primary)
                 .cornerRadius(16)
         }
