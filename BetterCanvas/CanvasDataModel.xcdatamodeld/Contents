@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CourseEntity" representedClassName="CourseEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="courseCode" optional="YES" attributeType="String"/>
+        <attribute name="endAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="enrollmentState" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="lastSyncDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="startAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="assignments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AssignmentEntity" inverseName="course" inverseEntity="AssignmentEntity"/>
+        <relationship name="discussions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DiscussionEntity" inverseName="course" inverseEntity="DiscussionEntity"/>
+        <relationship name="grades" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="GradeEntity" inverseName="course" inverseEntity="GradeEntity"/>
+    </entity>
+    <entity name="AssignmentEntity" representedClassName="AssignmentEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="assignmentDescription" optional="YES" attributeType="String"/>
+        <attribute name="dueAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hasSubmittedSubmissions" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="lastSyncDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="pointsPossible" optional="YES" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="submissionTypes" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="[String]"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseEntity" inverseName="assignments" inverseEntity="CourseEntity"/>
+        <relationship name="submissions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SubmissionEntity" inverseName="assignment" inverseEntity="SubmissionEntity"/>
+    </entity>
+    <entity name="DiscussionEntity" representedClassName="DiscussionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="authorName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="lastSyncDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="message" optional="YES" attributeType="String"/>
+        <attribute name="postedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="repliesCount" optional="YES" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseEntity" inverseName="discussions" inverseEntity="CourseEntity"/>
+        <relationship name="posts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DiscussionPostEntity" inverseName="discussion" inverseEntity="DiscussionPostEntity"/>
+    </entity>
+    <entity name="DiscussionPostEntity" representedClassName="DiscussionPostEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="authorName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="message" optional="YES" attributeType="String"/>
+        <attribute name="postedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="discussion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiscussionEntity" inverseName="posts" inverseEntity="DiscussionEntity"/>
+    </entity>
+    <entity name="GradeEntity" representedClassName="GradeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="assignmentId" optional="YES" attributeType="String"/>
+        <attribute name="assignmentName" optional="YES" attributeType="String"/>
+        <attribute name="currentGrade" optional="YES" attributeType="String"/>
+        <attribute name="currentScore" optional="YES" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="lastSyncDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="pointsPossible" optional="YES" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseEntity" inverseName="grades" inverseEntity="GradeEntity"/>
+    </entity>
+    <entity name="SubmissionEntity" representedClassName="SubmissionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="submissionType" optional="YES" attributeType="String"/>
+        <attribute name="submittedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="textContent" optional="YES" attributeType="String"/>
+        <attribute name="fileURL" optional="YES" attributeType="String"/>
+        <relationship name="assignment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AssignmentEntity" inverseName="submissions" inverseEntity="AssignmentEntity"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="avatarURL" optional="YES" attributeType="String"/>
+        <attribute name="lastSyncDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>

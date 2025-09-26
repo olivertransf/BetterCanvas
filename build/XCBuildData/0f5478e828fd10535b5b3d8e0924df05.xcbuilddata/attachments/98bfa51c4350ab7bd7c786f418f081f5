@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvas-primary.dia",
+    "emit-module-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvas-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvas-primary-emit-module.dia",
+    "pch" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvas-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvas-primary.swiftdeps"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/BetterCanvasApp.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/BetterCanvasApp~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/ContentView.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/Announcement.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Announcement~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/Assignment.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Assignment~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/Course.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Course~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/Discussion.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Discussion~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/Grade.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Grade~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/Submission.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/Submission~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Models/User.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/User~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Services/AuthenticationProtocol.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/AuthenticationProtocol~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Services/CanvasAPIProtocol.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/CanvasAPIProtocol~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/BetterCanvas/Services/DataManagerProtocol.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/DataManagerProtocol~partial.swiftmodule"
+  },
+  "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/olivertran/Documents/BetterCanvas/build/BetterCanvas.build/Debug/BetterCanvas.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
